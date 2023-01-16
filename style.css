@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+:root {
+    --AppPrimaryColor:#2500f9;
+    --AppSecondaryColor:#f55767;
+    --AppFontColor: #242f51;
+    --app-hover-color:#2500f9;
+}
+
+/* Header Section */
+
+.header-area {
+    background-color: #fdfdfe;
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{  
+    width: 1174px;
+    margin: 0 auto;
+}
+
+.header-top {    
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+nav.primary-menu ul li {display: inline-block;}
+nav.primary-menu ul li a {
+    color:var(--AppFontColor) ;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 44px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.app-primary-button {
+    background-color: var(--AppSecondaryColor);
+    color: #fff;
+    text-decoration: none;
+    padding: 17px 41px;
+    border-radius: 50px;
+}
+
+.app-primary-button:hover {
+    background-color: var(--app-hover-color);
+}
+
+.nav-menu-area {
+    display: flex;
+    align-items: center;
+}
+
+.app-banner {
+    margin-top: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.promotional-text {
+    display: flex;
+    align-items: center;
+    background-color: #e2eaed;
+    border-radius: 30px;
+    width: 361px;
+    gap: 11px;
+}
+
+.promotional-text i {
+    background-color: #feaa25;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 9px;
+    
+}
+
+.promotional-text h2 {
+    color: var(--AppFontColor);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.app-banner-content {
+    margin-top: 28px;
+    
+}
+.app-banner-content h2{
+    color: var(--AppFontColor);
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 75px;    
+}
+
+.app-banner-content p{
+    color: #616368;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    width: 500px;
+}
+
+.app-banner-button a {
+    text-decoration: none;
+}
+
+.app-banner-button a:last-child {
+    margin-left: 28px;
+    color: var(--AppPrimaryColor);
+}
+
+/* / Header Section */
+
+/* Main Section */
+.companies h2 {
+    color: var(--AppFontColor);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 115px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.companies-logos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 208px;
+}
+
+/* /Main Section */
