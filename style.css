@@ -11,13 +11,36 @@ body {
 }
 
 :root {
-    --AppPrimaryColor:#2500f9;
-    --AppSecondaryColor:#f55767;
-    --AppFontColor: #242f51;
-    --app-hover-color:#2500f9;
+    --AppPrimaryColor: #2500f9;
+    --AppSecondaryColor: #f55767;
+    --AppFontColor: #242f51; 
+    --app-hover-color: #2500f9;
+    --app-text-color: #616368;
 }
 
 /* Header Section */
+
+.header-section h2 {
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 600;
+    color: var(--AppFontColor);
+    margin-bottom: 30px;
+}
+
+.heading-two h2 {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #f55767;
+    margin-bottom: 20px;
+}
+
+.header-section p {
+    font-size: 16px;
+    line-height: 26px;    
+    color: var(--app-text-color);
+}
 
 .header-area {
     background-color: #fdfdfe;
@@ -26,21 +49,29 @@ body {
     background-size: cover;
 }
 
-.container{  
+.container {
     width: 1174px;
     margin: 0 auto;
 }
 
-.header-top {    
+.containers {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.header-top {
     padding-top: 60px;
     display: flex;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;
 }
 
-nav.primary-menu ul li {display: inline-block;}
+nav.primary-menu ul li {
+    display: inline-block;
+}
+
 nav.primary-menu ul li a {
-    color:var(--AppFontColor) ;
+    color: var(--AppFontColor);
     text-decoration: none;
     font-size: 16px;
     line-height: 44px;
@@ -87,7 +118,7 @@ nav.primary-menu ul li a {
     font-size: 20px;
     border-radius: 20px;
     padding: 9px;
-    
+
 }
 
 .promotional-text h2 {
@@ -98,16 +129,17 @@ nav.primary-menu ul li a {
 
 .app-banner-content {
     margin-top: 28px;
-    
+
 }
-.app-banner-content h2{
+
+.app-banner-content h2 {
     color: var(--AppFontColor);
     font-size: 60px;
     font-weight: 600;
-    line-height: 75px;    
+    line-height: 75px;
 }
 
-.app-banner-content p{
+.app-banner-content p {
     color: #616368;
     font-size: 18px;
     font-weight: 400;
@@ -129,6 +161,8 @@ nav.primary-menu ul li a {
 /* / Header Section */
 
 /* Main Section */
+
+/* companies */
 .companies h2 {
     color: var(--AppFontColor);
     font-size: 16px;
@@ -145,5 +179,134 @@ nav.primary-menu ul li a {
     align-items: center;
     margin-bottom: 208px;
 }
+
+/* /companies */
+
+
+
+/* Awesome-apps */
+.awesome-apps-area {
+    display: flex;
+    justify-content: flex-start;
+    gap: 35px;
+}
+
+.picture:hover {
+    background-image: url(images/Planning.png);
+    background-repeat: no-repeat;
+
+}
+
+.awesome-apps-single-area {
+    margin-top: 90px;
+}
+
+.awesome-apps-single {
+    display: flex;
+    justify-content: flex-start;
+    gap: 32px;
+    align-items: last baseline;
+    margin-bottom: 63px;    
+}
+
+.awesome-apps-single h2 {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #f55767;
+    margin-bottom: 20px;
+}
+
+.awesome-apps-single:nth-child(2) h2 {
+    color: #2563ff;
+}
+
+.awesome-apps-single:nth-child(3) h2 {
+    color: #40975f;
+}
+
+/* /Awesome-apps */
+
+
+/* Jackpots-area */
+
+.jackpots-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 126px;
+    margin-top: 150px;
+    margin-bottom: 111px;
+}
+
+.jackpots-heading h2 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    color: var(--AppFontColor);
+    position: relative;    
+}
+
+.jackpots-heading h2::after {
+    content: '';
+    width: 5px;
+    height: 200px;
+    background-color: #b9b9b8;
+    position: absolute;
+    top: -16px;
+    right: -163px;
+}
+
+/* /Jackpots-area */
+
+
+/* Network Effect */
+
+.network-effect {
+    text-align: left;
+    display: flex;
+    gap: 135px;    
+}
+
+.heading-two:nth-child(2) h2 {
+    color: #2563ff;
+}
+
+.heading-two:nth-child(3) h2 {
+    color: #40975f; 
+}
+
+.automatic img {
+    margin-bottom: 36px;
+}
+
+.network-effect-area {
+    margin-bottom: 110px;
+}
+
+/* /Network Effect */
+
+/* Designed Area */
+
+.designed {
+    display: flex;
+    align-items: center;
+    gap: 111px;
+}
+
+.designed-right {
+    width: 450px;
+}
+
+.designed-right h2 {
+    width: 380px;
+}
+
+.Learn {
+    margin-top: 42px;
+    
+}
+/* /Designed Area */
+
 
 /* /Main Section */
