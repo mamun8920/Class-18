@@ -10,12 +10,28 @@ body {
     font-weight: 400;
 }
 
+.container {
+    width: 1174px;
+    margin: 0 auto;
+}
+
+.containers {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.AllContainers {
+    width: 1920px;
+    margin: 0 auto;
+}
+
 :root {
     --AppPrimaryColor: #2500f9;
     --AppSecondaryColor: #f55767;
     --AppFontColor: #242f51; 
     --app-hover-color: #2500f9;
     --app-text-color: #616368;
+    --app-bd-color: #a29bfe;
 }
 
 /* Header Section */
@@ -28,15 +44,20 @@ body {
     margin-bottom: 30px;
 }
 
+.header-section p {
+    font-size: 16px;
+    line-height: 26px;    
+    color: var(--app-text-color);
+}
+
 .heading-two h2 {
     font-size: 20px;
     line-height: 25px;
     font-weight: 600;
-    color: #f55767;
     margin-bottom: 20px;
 }
 
-.header-section p {
+.heading-two p {
     font-size: 16px;
     line-height: 26px;    
     color: var(--app-text-color);
@@ -47,16 +68,6 @@ body {
     background-image: url(images/header-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.container {
-    width: 1174px;
-    margin: 0 auto;
-}
-
-.containers {
-    width: 1500px;
-    margin: 0 auto;
 }
 
 .header-top {
@@ -209,19 +220,15 @@ nav.primary-menu ul li a {
     margin-bottom: 63px;    
 }
 
-.awesome-apps-single h2 {
-    font-size: 20px;
-    line-height: 25px;
-    font-weight: 600;
-    color: #f55767;
-    margin-bottom: 20px;
+.awesome-apps-single:first-child h2 {
+    color: #f55767;    
 }
 
 .awesome-apps-single:nth-child(2) h2 {
     color: #2563ff;
 }
 
-.awesome-apps-single:nth-child(3) h2 {
+.awesome-apps-single:last-child h2 {
     color: #40975f;
 }
 
@@ -268,11 +275,15 @@ nav.primary-menu ul li a {
     gap: 135px;    
 }
 
-.heading-two:nth-child(2) h2 {
+.automatic:first-child h2 {    
+    color: #f55767;
+}
+
+.automatic:nth-child(2) h2 {
     color: #2563ff;
 }
 
-.heading-two:nth-child(3) h2 {
+.automatic:last-child h2 {
     color: #40975f; 
 }
 
@@ -303,10 +314,183 @@ nav.primary-menu ul li a {
 }
 
 .Learn {
-    margin-top: 42px;
-    
+    margin-top: 42px;    
 }
 /* /Designed Area */
+
+/* border-bottom */
+.border-bottom {
+    width: 100%;
+    height: 2px;
+    background-color: #f4f4f4;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* /border-bottom */
+
+/* our-app-section */
+
+.our-app {    
+    display: grid;
+    grid-gap: 100px;    
+    text-align: center;
+    /* justify-items: center;
+    align-items: center; */
+    grid-template-columns: repeat(12, auto);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: 
+    "h h h h h h h h h h h h"
+    "d d d d t t t t s s s s"
+    "c c c c u u u u r r r r";
+    
+}
+
+.our-app-heading {
+    grid-area: h;    
+    background-color: var(--app-bd-color);
+}
+.our-app-AppDevelopment { 
+    grid-area: d; 
+    background-color: var(--app-bd-color);
+}
+.our-app-10TimesAward {
+    grid-area: t; 
+    background-color: var(--app-bd-color);
+}
+.our-app-CloudStorage{
+    grid-area: s; 
+    background-color: var(--app-bd-color);
+}
+.our-app-Customization {
+    grid-area: c; 
+    background-color: var(--app-bd-color);
+}
+.our-app-UX-Planning {
+    grid-area: u; 
+    background-color: var(--app-bd-color);
+}
+.our-app-CustomerSupport {
+    grid-area: r; 
+    background-color: var(--app-bd-color);
+}
+
+.OurApp img {
+    margin-bottom: 20px;
+}
+
+/* /our-app-section */
+
+
+
+/* Ultimate Section */
+.ultimate { 
+    margin-top: 100px;   
+    display: grid;       
+    text-align: left;
+    /* justify-items: center;
+    align-items: center; */
+    grid-template-columns: repeat(12, auto);
+    grid-template-rows: repeat(4, auto);
+    align-items: center;
+    grid-gap: 10px;
+    grid-template-areas: 
+    "h h h h h h h h i i i i"
+    "d d d d u u u u i i i i"
+    "c c c c s s s s i i i i";
+    
+}
+
+
+.ultimate-heading {
+    grid-area: h;    
+    background-color: var(--app-bd-color);
+}
+.ultimate-AppDevelopment { 
+    grid-area: d; 
+    background-color: var(--app-bd-color);
+}
+.ultimate-UX-Planning {
+    grid-area: u; 
+    background-color: var(--app-bd-color);
+}
+.ultimate-CloudStorage{
+    grid-area: c; 
+    background-color: var(--app-bd-color);
+}
+.ultimate-CustomerSupport {
+    grid-area: s; 
+    background-color: var(--app-bd-color);
+}
+.ultimate-image {
+    grid-area: i;    
+}
+
+/* /Ultimate Section */
+
+
+/* Meet Client Section */
+
+.meet-client-area{  
+    margin-top: 100px;  
+    display: flex;
+    align-items: flex-end;
+}
+.star {
+    color: #ffcc00;
+    font-size: 20px;
+    line-height: 58px;
+    margin: 20px 0;
+}
+
+.meet-client-two p {
+    width: 600px;
+    text-align: justify;
+    margin-bottom: 60px;
+}
+
+.client-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.client {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.client-name h2 {
+    margin-bottom: 5px;
+}
+
+.circle {
+    font-size: 50px;
+    color: #eff3f8;    
+}
+
+.circle :hover {
+    color: #2500f9;
+}
+
+/* /Meet Client Section */
+
+
+/* Download Section */
+
+.download-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.download-area-left img {
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+/* /Download Section */
+
 
 
 /* /Main Section */
