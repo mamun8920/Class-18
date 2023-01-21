@@ -31,7 +31,7 @@ body {
     --AppFontColor: #242f51; 
     --app-hover-color: #2500f9;
     --app-text-color: #616368;
-    --app-bd-color: #a29bfe;
+    /* --app-bd-color: #a29bfe; */
 }
 
 /* Header Section */
@@ -384,6 +384,8 @@ nav.primary-menu ul li a {
 
 
 /* Ultimate Section */
+
+
 .ultimate { 
     margin-top: 100px;   
     display: grid;       
@@ -397,10 +399,8 @@ nav.primary-menu ul li a {
     grid-template-areas: 
     "h h h h h h h h i i i i"
     "d d d d u u u u i i i i"
-    "c c c c s s s s i i i i";
-    
+    "c c c c s s s s i i i i";    
 }
-
 
 .ultimate-heading {
     grid-area: h;    
@@ -422,8 +422,16 @@ nav.primary-menu ul li a {
     grid-area: s; 
     background-color: var(--app-bd-color);
 }
-.ultimate-image {
+.Ultimate-image {
     grid-area: i;    
+}
+
+.Ultimate img {
+    margin-bottom: 20px;
+}
+
+.Ultimate-app-button {
+    margin-top: 40px;
 }
 
 /* /Ultimate Section */
@@ -498,4 +506,42 @@ nav.primary-menu ul li a {
 
 
 /* Footer Section */
+
+.footer-area {
+    /* background-color: #09142e; */
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+}
+
+.footer {
+    display: grid;
+    grid-template: 1fr / 1fr;
+    justify-items: center;
+    grid-gap: 50px;    
+}
+
+.primary-menu ul li a {
+    color: #fcae61;
+}
+
+.primary-menu ul li a:hover {
+    color: #fff;
+}
+
+.footer-icon {
+    font-size: 50px;
+    color: #273043;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer-icon:hover {
+    color: #ffffff;
+}
+
+.footer-paragraph {
+    color: #3d465a;
+}
 /* /Footer Section */
