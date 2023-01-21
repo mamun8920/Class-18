@@ -522,12 +522,12 @@ nav.primary-menu ul li a {
     grid-gap: 50px;    
 }
 
-.primary-menu ul li a {
-    color: #fcae61;
+.footer-menu ul li a {
+    color: #fff;
 }
 
 .primary-menu ul li a:hover {
-    color: #fff;
+    color: #fcae61;
 }
 
 .footer-icon {
