@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 * {
     margin: 0;
@@ -437,6 +437,116 @@ nav.primary-menu ul li a {
 /* /Ultimate Section */
 
 
+/* Pricing-Table */
+
+.pricing-table-area {
+    margin-top: 170px;
+}
+
+.pricing-table-top {
+    text-align: center;
+    width: 57%;
+    margin: auto;
+}
+
+.pricing-table-bottom{
+    margin-top: 82px;
+    text-align: center;
+}
+
+.pricing-table-button {
+    display: flex;
+    justify-content: center;
+    width: 257px;
+    border: 1px solid #ebebeb;
+    border-radius: 50px;
+    margin: auto;
+    padding: 2px;
+}
+
+.pricing-table-button button {
+    padding: 16px 34px;
+    border-radius: 50px;
+    border: 0;
+    font-weight: 600;
+    font-size: 16px;
+    
+}
+
+.pricing-table-button button:hover {
+    background-color: var(--app-hover-color);
+    cursor: pointer;
+}
+
+.pricing-table-button .active {
+    background-color: var(--AppSecondaryColor);
+    color: #fff;
+}
+
+
+.pricing-table-content {
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+    margin-top: 40px;
+}
+
+.single-pricing-table {
+    margin: 50px 0;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3.837px 54.866px 62px 0px rgba(144, 163, 177, 0.18);
+    border-radius: 10px;
+    border: 2px solid transparent;
+
+}
+
+.single-pricing-table:hover {
+    border: 2px solid #ebebeb;
+}
+
+
+.single-pricing-table-header {
+    background-color: #f8fafb;
+    padding: 70px;    
+} 
+
+.pricing-table-price {
+    color: var(--AppFontColor);
+    font-size: 60px;
+    line-height: 58px;
+    font-weight: 600;
+}
+
+.pricing-table-price span  {
+    color: #9fa2aa;
+    font-size: 18px;
+    line-height: 58px;
+    font-weight: 400;
+}
+
+
+.pricing-table-list ul {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.pricing-table-list ul li {
+    list-style: none; 
+    margin-bottom: 30px;
+}
+
+.buy-pricing-package {
+    margin-bottom: 26px;
+}
+
+.pricing-table-footer p {
+    color: var(--AppPrimaryColor);
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+/* /Pricing-Table */
+
+
 /* Meet Client Section */
 
 .meet-client-area{  
@@ -482,6 +592,59 @@ nav.primary-menu ul li a {
 }
 
 /* /Meet Client Section */
+
+
+/* Accordion Section */
+
+.accordion-section-area {
+    margin-top: 190px;
+}
+
+.accordion-top {
+    text-align: center;
+    width: 57%;
+    margin: auto;    
+}
+
+.single-accordion {
+    background-color: #f5f7fa;
+    padding: 20px 60px;
+    margin-top: 10px;
+}
+
+.single-accordion-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.single-accordion-heading h2 {
+    margin-bottom: 0;
+}
+
+.single-accordion-content p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.single-accordion-content {
+    display: none;
+}
+
+.single-accordion:first-child{
+    margin-top: 66px;
+}
+
+.single-accordion:first-child .single-accordion-heading i {
+    display: none;
+}
+
+.single-accordion:first-child .single-accordion-content {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* /Accordion Section */
 
 
 /* Download Section */
