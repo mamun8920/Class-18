@@ -21,7 +21,7 @@ body {
 }
 
 .AllContainers {
-    width: 1920px;
+    width: 1900px;
     margin: 0 auto;
 }
 
@@ -457,7 +457,7 @@ nav.primary-menu ul li a {
 .pricing-table-button {
     display: flex;
     justify-content: center;
-    width: 257px;
+    width: 263px;
     border: 1px solid #ebebeb;
     border-radius: 50px;
     margin: auto;
@@ -686,8 +686,8 @@ nav.primary-menu ul li a {
     grid-gap: 50px;    
 }
 
-.footer-menu ul li a {
-    color: #fff;
+nav.footer-menu ul li a {
+    color: white;
 }
 
 .primary-menu ul li a:hover {
