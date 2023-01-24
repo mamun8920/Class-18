@@ -507,7 +507,7 @@ nav.primary-menu ul li a {
 
 .single-pricing-table-header {
     background-color: #f8fafb;
-    padding: 70px;    
+    padding: 80px;    
 } 
 
 .pricing-table-price {
@@ -532,10 +532,11 @@ nav.primary-menu ul li a {
 .pricing-table-list ul li {
     list-style: none; 
     margin-bottom: 30px;
+    color: #9fa2aa;
 }
 
 .buy-pricing-package {
-    margin-bottom: 26px;
+    margin-bottom: 50px;
 }
 
 .pricing-table-footer p {
