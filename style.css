@@ -96,8 +96,8 @@ nav.primary-menu ul li a {
 }
 
 .app-primary-button:hover {
-    /* background-color: var(--app-hover-color); */
-    background: linear-gradient (#14ffe9, #ffeb3b, #ff00e0);
+    background-color: var(--app-hover-color);
+    /* background: linear-gradient (#14ffe9, #ffeb3b, #ff00e0); */
 
 }
 
