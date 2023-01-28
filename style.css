@@ -79,6 +79,7 @@ body {
 
 nav.primary-menu ul li {
     display: inline-block;
+    list-style: none;
 }
 
 nav.primary-menu ul li a {
@@ -91,7 +92,7 @@ nav.primary-menu ul li a {
 }
 
 .app-primary-button {
-    background-color: var(--AppSecondaryColor);
+    background-color: var(--AppSecondaryColor); 
     color: #fff;
     text-decoration: none;
     padding: 17px 41px;
@@ -99,7 +100,9 @@ nav.primary-menu ul li a {
 }
 
 .app-primary-button:hover {
-    background-color: var(--app-hover-color);
+    /* background-color: var(--app-hover-color); */
+    background: linear-gradient (#14ffe9, #ffeb3b, #ff00e0);
+
 }
 
 .nav-menu-area {
@@ -112,6 +115,7 @@ nav.primary-menu ul li a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 100px;
 }
 
 .promotional-text {
@@ -140,24 +144,13 @@ nav.primary-menu ul li a {
 
 .app-banner-content {
     margin-top: 28px;
+    width: 500px;
 
-}
-
-.app-banner-content h2 {
-    color: var(--AppFontColor);
-    font-size: 60px;
-    font-weight: 600;
-    line-height: 75px;
 }
 
 .app-banner-content p {
-    color: #616368;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 28px;
     margin-top: 25px;
-    margin-bottom: 40px;
-    width: 500px;
+    margin-bottom: 40px;    
 }
 
 .app-banner-button a {
@@ -396,10 +389,11 @@ nav.primary-menu ul li a {
     grid-template-rows: repeat(4, auto);
     align-items: center;
     grid-gap: 10px;
-    grid-template-areas: 
+    grid-template-areas:
     "h h h h h h h h i i i i"
     "d d d d u u u u i i i i"
-    "c c c c s s s s i i i i";    
+    "c c c c s s s s i i i i"  
+    ;    
 }
 
 .ultimate-heading {
@@ -470,11 +464,13 @@ nav.primary-menu ul li a {
     border: 0;
     font-weight: 600;
     font-size: 16px;
+    background-color: #fff;
     
 }
 
 .pricing-table-button button:hover {
     background-color: var(--app-hover-color);
+    color: #fff;
     cursor: pointer;
 }
 
@@ -607,43 +603,27 @@ nav.primary-menu ul li a {
     margin: auto;    
 }
 
-.single-accordion {
+.md-mamun {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.md-mamun .accordion-item {
+    border: 0;
     background-color: #f5f7fa;
-    padding: 20px 60px;
-    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 5px;
 }
 
-.single-accordion-heading {
-    display: flex;
-    justify-content: space-between;
-}
-
-.single-accordion-heading h2 {
-    margin-bottom: 0;
-}
-
-.single-accordion-content p {
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
-.single-accordion-content {
-    display: none;
-}
-
-.single-accordion:first-child{
-    margin-top: 66px;
-}
-
-.single-accordion:first-child .single-accordion-heading i {
-    display: none;
-}
-
-.single-accordion:first-child .single-accordion-content {
-    display: block;
+.md-mamun .accordion-button {
+    background-color: transparent;
+    box-shadow: none;
     font-size: 20px;
     font-weight: 600;
+    color: var(--App-Font-Color);
 }
+
 
 /* /Accordion Section */
 
@@ -665,15 +645,43 @@ nav.primary-menu ul li a {
 
 
 
+/* ......Keyframes Section....... */
+
+
+
+.logo img {
+    animation: Smart 5s infinite;
+}
+
+@keyframes Smart {
+    from {transform: rotate(0turn);} 
+    to {transform: rotate(5turn);}
+}
+
+
+
+
+/* ....../Keyframes Section....... */
+
+
+
+
+
+
+
+
+
+
+
 /* /Main Section */
 
 
 
 /* Footer Section */
 
-.footer-area {
-    /* background-color: #09142e; */
-    background-image: url(images/footer-bg.png);
+.footer-area {    
+    background-color: #09142e;
+    /* background-image: url(images/footer-bg.png); */
     background-repeat: no-repeat;
     background-size: cover;
     padding: 100px;

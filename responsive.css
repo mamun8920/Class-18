@@ -1,0 +1,226 @@
+/* --------------
+Mobile Devise
+-------------- */
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+
+    .containers {
+        width: 90%;
+    }
+
+    .AllContainers {
+        width: 90%;
+    }
+
+    .header-section h2 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+    .heading-two h2 {
+        font-size: 25px;
+        line-height: 20px;
+    }
+
+    .header-top {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .nav-menu-area {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    nav.primary-menu ul {
+        padding-left: 0;
+    }
+
+    nav.primary-menu ul li a {
+        font-size: 14px;
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+
+    .app-button {
+        margin-top: 10px;
+    }
+
+    .app-primary-button {
+        padding: 7px 41px;
+    }
+
+
+    .app-banner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .app-banner-content {
+        width: 100%;
+    }
+
+    .companies-logos {
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+    }
+
+
+    .awesome-apps-area {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .awesome-apps-left img {
+        width: 90%;
+    }
+
+    .awesome-apps-single {
+        justify-content: center;
+        align-items:center;
+    }
+
+    
+    .picture:hover {
+        background-size: 100%;
+
+    }
+
+    .jackpots-area {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .jackpots-heading h2 {
+        font-size: 30px;
+    }
+
+    .jackpots-heading h2::after {
+        content: '';
+        width: 300px;
+        height: 5px;
+        top: 200px;
+        left: 0px;
+    }
+
+    .network-effect {
+        flex-direction: column;
+        text-align: center;
+        gap: 35px;
+    }
+
+    .designed {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .designed-left img {
+        width: 100%;
+    }
+
+    .designed-right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .designed-right h2 {
+        width: 100%;
+    }
+
+    .our-app {         
+        text-align: center;
+        grid-gap: 10px;
+        grid-template-rows: repeat(8, auto);       
+        grid-template-areas:
+            "h h h h h h h h h h h h"
+            "d d d d d d d d d d d d"
+            "t t t t t t t t t t t t"
+            "s s s s s s s s s s s s"
+            "c c c c c c c c c c c c"
+            "u u u u u u u u u u u u"
+            "r r r r r r r r r r r r";
+    }
+
+    .Ultimate-app-button {
+        text-align: center;
+    }
+
+    .ultimate{
+        text-align: center;
+        grid-template-rows: repeat(7, auto);
+        grid-template-areas:
+        "i i i i i i i i i i i i"
+        "h h h h h h h h h h h h"
+        "d d d d d d d d d d d d"
+        "u u u u u u u u u u u u"
+        "c c c c c c c c c c c c"
+        "s s s s s s s s s s s s";
+      }
+    
+
+    .Ultimate-image img {
+        width: 100%;
+    }
+
+    .pricing-table-top {
+        width: 100%;
+    }
+
+    .pricing-table-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .meet-client-area {
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+    }
+
+    .meet-client-pic img {
+        width: 90%;
+    }
+
+    .meet-client-contant {
+        width: 100%;
+    }
+
+    .meet-client-two p {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .client-area {
+        flex-direction: column;
+        text-align: center;        
+    }
+
+    .client {
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+
+
+    .accordion-top {
+        width: 80%;
+    }
+
+    .download-area {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .download-area-right img{
+        width: 100%;
+    }
+
+
+
+}
