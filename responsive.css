@@ -10,19 +10,24 @@ Mobile Devise
     .containers {
         width: 90%;
     }
-
-    .AllContainers {
-        width: 90%;
-    }
-
+    
     .header-section h2 {
         font-size: 36px;
         line-height: 46px;
     }
 
+    .header-section p {
+        font-size: 14px;        
+    }
+
     .heading-two h2 {
         font-size: 25px;
         line-height: 20px;
+    }
+
+    .heading-two p {
+        font-size: 14px;
+        
     }
 
     .header-top {
