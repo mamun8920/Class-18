@@ -12,7 +12,7 @@ Mobile Devise
     }
     
     .header-section h2 {
-        font-size: 36px;
+        font-size: 30px;
         line-height: 46px;
     }
 
@@ -22,7 +22,7 @@ Mobile Devise
 
     .heading-two h2 {
         font-size: 25px;
-        line-height: 20px;
+        line-height: 30px;
     }
 
     .heading-two p {
@@ -64,16 +64,42 @@ Mobile Devise
     .app-banner {
         flex-direction: column;
         text-align: center;
+        gap: 0px;
     }
 
     .app-banner-content {
         width: 100%;
     }
 
+    .app-banner-left{
+        width: 90%;
+    }
+
+    .promotional-text {
+        width: 100%;
+    }
+
+    .promotional-text i {
+        font-size: 15px;
+    }
+
+    .promotional-text h2 {
+        font-size: 15px;
+    }
+
+    .app-banner-right img {
+        width: 90%;
+    }
+
+    .app-banner-button {
+        flex-direction: column;
+        gap: 20px;
+    }
+
     .companies-logos {
         flex-direction: column;
-        text-align: center;
-        gap: 50px;
+        text-align: center; 
+        gap: 50px;        
     }
 
 
@@ -224,6 +250,17 @@ Mobile Devise
 
     .download-area-right img{
         width: 100%;
+    }
+
+
+    
+
+    .footer-area {
+        padding: 20px;
+    }
+
+    .footer-icon {
+        font-size: 30px;
     }
 
 

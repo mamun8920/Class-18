@@ -148,9 +148,12 @@ nav.primary-menu ul li a {
     margin-top: 25px;
     margin-bottom: 40px;    
 }
-
-.app-banner-button a {
+.app-banner-button{
+    display: flex;
+}
+.app-banner-button a {    
     text-decoration: none;
+    
 }
 
 .app-banner-button a:last-child {
@@ -205,7 +208,7 @@ nav.primary-menu ul li a {
     display: flex;
     justify-content: flex-start;
     gap: 32px;
-    align-items: last baseline;
+    align-items: center;
     margin-bottom: 63px;    
 }
 
